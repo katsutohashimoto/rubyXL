@@ -321,7 +321,7 @@ module RubyXL
     define_relationship(RubyXL::Theme,              :theme)
     define_relationship(RubyXL::CalculationChain,   :calculation_chain)
     define_relationship(RubyXL::Worksheet,          false)
-    define_relationship(RubyXL::Chartsheet,         false)
+    define_relationship(RubyXL::Chartsheet,         :chart_sheet)
     define_relationship(RubyXL::ExternalLinksFile)
     define_relationship(RubyXL::PivotCacheDefinitionFile)
     define_relationship(RubyXL::PivotCacheRecordsFile)
